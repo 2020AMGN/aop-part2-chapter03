@@ -86,7 +86,6 @@ class MainActivity : AppCompatActivity() {
 
             if (changePasswordMode) {
 
-
                 sharedPreferences.edit {
                     this.putString("password", "${firstNumberPicker.value}${secondNumberPicker.value}${thirdNumberPicker.value}")
                     commit()
